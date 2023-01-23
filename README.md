@@ -14,6 +14,7 @@ Step 4: Check your systems maximun column with the pd.options.display.max_columu
 Step 5: Increase the maximum number of rows to display the entire DataFrame.
 
 ## PROGRAM:
+```python
 developed by :Abishek Xavier A
 registered number :22008833
 import pandas as pd
@@ -22,6 +23,7 @@ print(df.head(10))
 print(df.tail())
 print("Column",len(df.axes[0]))
 print("Row",len(df.axes[1]))
+```
 ## OUTPUT:
 ![Output](kk.png)
 ## RESULT:
